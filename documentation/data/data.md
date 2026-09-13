@@ -11,6 +11,7 @@ Revised: March 29, 2024
 * [TextDecoder & Text Encoder](#text)
 * [Inflate & Deflate (zlib)](#zlib)
 * [URL & URLSearchParams](#url)
+* [On-device ML](#ml)
 
 <a id="base64"></a>
 ## class Base64
@@ -302,3 +303,8 @@ Include the module's manifest to use it in a project:
 `URLSearchParams` implements the [URLSearchParams class](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams) as [specified by WHATWG](https://url.spec.whatwg.org/#urlsearchparams).
 
 [Tests for both](https://github.com/Moddable-OpenSource/moddable/tree/public/tests/modules/data/url) are included in the Moddable SDK. They are based on the tests used to validate these APIs in web browsers.
+
+<a id="ml"></a>
+## On-device ML
+
+The `ml` module provides online statistics, anomaly detection, a tiny linear classifier, and a policy engine for sensor-driven IoT control. See [On-device ML](./ml.md).

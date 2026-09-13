@@ -1,0 +1,8 @@
+{
+	"modules": {
+		"mcp": "./mcp"
+	},
+	"preload": [
+		"mcp"
+	]
+}

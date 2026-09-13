@@ -24,6 +24,7 @@ Revised: February 23, 2024
 * [Telnet](#telnet)
 * [Ping](#ping)
 * [MQTT](#mqtt)
+* [MCP](#mcp)
 
 <a id="socket"></a>
 ## class Socket
@@ -1521,3 +1522,9 @@ mqtt.onClose = function() {
 ```
 
 ***
+
+<a id="mcp"></a>
+## Model Context Protocol
+
+The `mcp` module implements a Model Context Protocol JSON-RPC server so an AI client can call tools on the device. See [MCP](./mcp.md) and the [MCP IoT example](../../examples/network/mcp-iot/readme.md).
+
