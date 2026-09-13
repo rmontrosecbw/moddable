@@ -235,7 +235,7 @@ class IoTDevice {
 <html><head><meta charset="utf-8"><meta http-equiv="refresh" content="3">
 <title>${snap.name}</title>
 <style>
-body{font-family:sans-serif;margin:24px;background:#111;color:#eee}
+body{font-family:"DejaVu Sans",Arial,Helvetica,sans-serif;margin:24px;background:#111;color:#eee}
 table{border-collapse:collapse;margin:12px 0}
 td,th{border:1px solid #444;padding:6px 10px}
 .ok{color:#8f8}.warn{color:#fc6}
