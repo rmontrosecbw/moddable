@@ -1,0 +1,31 @@
+{
+	"include": [
+		"$(MODDABLE)/examples/manifest_base.json",
+		"$(MODDABLE)/examples/manifest_net.json",
+		"$(MODULES)/network/http/manifest.json",
+		"$(MODULES)/network/mdns/manifest.json",
+		"$(MODULES)/data/ml/manifest.json",
+		"$(MODULES)/network/mcp/manifest.json"
+	],
+	"modules": {
+		"*": [
+			"./main"
+		],
+		"iotdevice": "./device",
+		"iotbridge": "./bridge",
+		"mcp/http": "$(MODULES)/network/mcp/http"
+	},
+	"preload": [
+		"ml",
+		"mcp",
+		"iotdevice",
+		"iotbridge"
+	],
+	"config": {
+		"mcpPort": 8080,
+		"sampleMs": 1000,
+		"hostName": "iot-device",
+		"deviceName": "esp32-s3-iot",
+		"allowInject": true
+	}
+}

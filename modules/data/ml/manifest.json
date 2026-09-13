@@ -1,0 +1,8 @@
+{
+	"modules": {
+		"ml": "./ml"
+	},
+	"preload": [
+		"ml"
+	]
+}

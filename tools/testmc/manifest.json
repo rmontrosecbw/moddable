@@ -14,6 +14,8 @@
 		"$(MODULES)/data/url/manifest.json",
 		"$(MODULES)/data/zlib/manifest_deflate.json",
 		"$(MODULES)/data/zlib/manifest_inflate.json",
+		"$(MODULES)/data/ml/manifest.json",
+		"$(MODULES)/network/mcp/manifest.json",
 		"$(MODULES)/files/preference/manifest.json",
 		"$(MODULES)/crypt/digest/manifest.json",
 		"$(MODDABLE)/modules/io/files/manifest.json",

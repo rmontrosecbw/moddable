@@ -29,8 +29,10 @@ The JavaScript APIs for the modules in the Moddable SDK are documented in the fo
   - [**Poco**](./commodetto/poco.md): Examples and reference for using the JavaScript and C APIs of the Poco renderer
 - [**Crypt**](./crypt/crypt.md): Cryptographic primitives
 - [**Data**](./data/data.md): Base64 and hex encoding and decoding
+  - [**On-device ML**](./data/ml.md): Heuristics, anomaly detection, and a tiny linear model for sensor-driven IoT control
  - [**Files**](./files/files.md): Storage capabilities including files, flash, preferences, resources, and ZIP
 - [**Network**](./network/network.md): Network socket and protocols built on socket including HTTP, WebSockets, MQTT, mDMS, DNS, SNTP, telnet, and ping; also, Wi-Fi  APIs
+  - [**MCP**](./network/mcp.md): Model Context Protocol server so an AI client can call tools on the device
   - [**Secure socket**](./network/securesocket.md): Using the TLS /SSL and managing certificates
   - [**BLE**](./network/ble/ble.md): Creating Bluetooth LE clients and servers, including a guide to examples
 - [**Pins**](./pins/pins.md): Hardware protocols including digital (GPIO), analog, PWM, I2C, SMBus, and servo
